@@ -7,23 +7,23 @@
 			<path>./sounds/system.ogg</path>
 		</sound>
 		<image name="background" extra="true">
-			<path>./art/retropie_art_blur.png</path>
+			<path>./art/background-retro-pie.png</path>
 		</image>
 
 		<image name="logo">
-			<path>./art/retropie.svg</path>
+			<path>./art/label-retro-pie.svg</path>
         </image>
-		
+
 		<helpsystem name="help">
-			<textColor>ffffff88</textColor>
-			<iconColor>ffffff88</iconColor>
+			<textColor>00000077</textColor>
+			<iconColor>00000077</iconColor>
 		</helpsystem>
-		
+
 	</view>
 
 	<view name="basic, detailed">
 		<image name="background">
-			<path>./art/retropie_art_blur.png</path>
+			<path>./art/background-retro-pie-blur.png</path>
 		</image>
 
 		<text name="system_name_1" extra="true">
@@ -36,7 +36,7 @@
 			<fontSize>0.055</fontSize>
 			<alignment>right</alignment>
 		</text>
-		
+
 		<text name="system_name_2" extra="true">
 			<text>Settings</text>
 			<forceUppercase>1</forceUppercase>
@@ -49,7 +49,7 @@
 		</text>
 
 		<image name="logo">
-			<path>./art/retropie.svg</path>
+			<path>./art/badge-retro-pie.svg</path>
 			<pos>0.025 0.079</pos>
 			<maxSize>0.5 0.1</maxSize>
 			<origin>0 0.5</origin>
@@ -58,18 +58,18 @@
 	</view>
 
 	<view name="basic">
-	
+
 		<textlist name="gamelist">
 			<pos>0.025 0.22</pos>
 			<size>0.950 0.68</size>
 			<alignment>center</alignment>
 			<horizontalMargin>0.01</horizontalMargin>
 		</textlist>
-		
+
 	</view>
 
 	<view name="detailed">
-	
+
 <!-- <measuring rectangle
 		<image name="measure" extra="true">
 			<pos>0.025 0.6</pos>
@@ -77,7 +77,7 @@
 			<size>0.19 0.301</size>
 			<path>./../art/white.png</path>
 			<color>ff00ff</color>
-		</image> 
+		</image>
  -->
 
 		<image name="md_image">
@@ -85,7 +85,14 @@
 			<maxSize>0.68 0.68</maxSize>
 			<origin>0 0</origin>
 		</image>
-		
+
+		<rating name="md_rating">
+			<pos>0.425 0.216</pos>
+			<size>0.028 0.028</size>
+			<filledPath>./../art/invisible.png</filledPath>
+			<unfilledPath>./../art/invisible.png</unfilledPath>
+		</rating>
+
 		<textlist name="gamelist">
 			<pos>0.615 0.22</pos>
 			<size>0.359 0.68</size>
@@ -94,5 +101,5 @@
 		</textlist>
 
 	</view>
-	
+
 </theme>

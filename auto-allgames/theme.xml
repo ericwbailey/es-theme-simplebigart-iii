@@ -7,27 +7,27 @@
 			<path>./sounds/system.ogg</path>
 		</sound>
 		<image name="background" extra="true">
-			<path>./art/Sega-MegaDrive-Genesis.png</path>
+			<path>./art/background-all-games.png</path>
 		</image>
 
 		<image name="logo">
-			<path>./art/label-sega-genesis.png</path>
+			<path>./art/label-all-games.svg</path>
         </image>
 
 		<helpsystem name="help">
-			<textColor>00000077</textColor>
-			<iconColor>00000077</iconColor>
+			<textColor>ffffff88</textColor>
+			<iconColor>ffffff88</iconColor>
 		</helpsystem>
 
 	</view>
 
 	<view name="basic, detailed">
 		<image name="background">
-			<path>./art/background-sega-genesis-blur.png</path>
+			<path>./art/background-all-games-blur.png</path>
 		</image>
 
 		<text name="system_name_1" extra="true">
-			<text>SEGA Megadrive/</text>
+			<text>All</text>
 			<forceUppercase>1</forceUppercase>
 			<size>0.45 0.08</size>
 			<pos>0.527 0.01</pos>
@@ -38,7 +38,7 @@
 		</text>
 
 		<text name="system_name_2" extra="true">
-			<text>SEGA Genesis</text>
+			<text>Games</text>
 			<forceUppercase>1</forceUppercase>
 			<size>0.45 0.08</size>
 			<pos>0.527 0.07</pos>
@@ -49,9 +49,9 @@
 		</text>
 
 		<image name="logo">
-			<path>./art/badge-sega-genesis.svg</path>
+			<path>./art/badge-all-games.svg</path>
 			<pos>0.025 0.079</pos>
-			<maxSize>0.5 0.1</maxSize>
+			<maxSize>0.45 0.1</maxSize>
 			<origin>0 0.5</origin>
 		</image>
 
@@ -74,11 +74,11 @@
 		<image name="measure" extra="true">
 			<pos>0.025 0.6</pos>
 			<origin>0 0</origin>
-			<size>0.19 0.301</size>
+			<size>0.125 0.301</size>
 			<path>./../art/white.png</path>
 			<color>ff00ff</color>
 		</image>
- -->
+-->
 
 		<image name="md_image">
 			<pos>0.025 0.22</pos>
