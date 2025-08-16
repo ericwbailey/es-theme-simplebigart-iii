@@ -8,14 +8,16 @@ A fork of [robertybob/es-theme-simplebigart](https://github.com/robertybob/es-th
 
 Support for:
 
--  All games
--  Favorites
--  Recently played
+- All games
+- Favorites
+- Recently played
 
 ### Changes
 
 - Console title graphics
 - RetroPie settings background
+- Blurred detail view backgrounds
+- Console badge graphics
 
 ## Install
 
